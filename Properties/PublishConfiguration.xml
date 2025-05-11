@@ -1,33 +1,85 @@
 ﻿<Publish>
 	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
-	<ModId Value="" />
+	<ModId Value="108745" />
 	<!--Name of the mod to display to players-->
-	<DisplayName Value="ON1_LUT_Bundle" />
+	<DisplayName Value="Filmstock LUT Pack" />
 	<!--Short description of the mod-->
 	<ShortDescription Value="LUT PACK FOR LUMINA" />
 	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
 	<!--LongDescription Value="LUT PACK FOR LUMINA" /-->
 	<LongDescription>
-LUT PACK FOR LUMINA
+## Filmstock LUT Pack for Lumina
+
+Elevate your visuals with this LUT pack, designed to bring a more cinematic and less digital aesthetic to your cityscapes. By emulating the characteristics of classic Kodak and Fujifilm film stocks, this pack delivers richer colors, enhanced contrast, and a noticeable reduction in the game's inherent yellow tint. Definitely different ascetic little retro, especially at close-ups.
+# Brief Usage:
+After downloading, LUTs should show up but if not you need to relaunch your game once, to ensure mod copies the LUT's and preset in Lumina folder.
+1. Load your save game and open the Lumina menu and go to first tab.
+2. Import the Filmstock preset by typing "Filmstock"
+3. Press "IMPORT PRESET"
+4. Tick the "ENABLE LUMINA VOLUME" else nothing will apply eather preset or LUT's
+5. Navigate to the "Tonemapping" tab (sun inside a square).
+6. Set the "Tonemapping Mode" to "External"
+7. Choose a "Tonemapping Texture" from the list (e.g., "Dam_Filmstock_FJ_D65")
+8. Ensure Lut Contribution is set to 1 else you will have white and saturation clipping. Use adjustments in last tab instead to fine tune later.
+9. Click "Load LUT"
+
+# Know Issues:
+- It seems the map texture pack is being unloaded whenever you switch LUT's. This isn't an issue with the texture pack itself, but rather something related to Lumina or the LUT application process, maybe there is conflict between Map Texture Replaced and Lumina using similar process. But you can easily re-enable your texture pack by selecting it again in the Map Texture Replacer.
+- To avoid the jarring visual change of the map textures disappearing, I suggest experimenting with different LUTs using the default game textures first. Once you've settled on a LUT you like, then you can reload your custom map textures, it will not unload anything anymore until you switch the LUT again.
+- Some custom textures for the terrain are honestly designed overexposed maybe to look better for vanilla tonemapping but they may be very bright with this LUT's
+- Overall LUTs are created with way better technique then Candy Commercial I almost eliminated color banding, and middle grey value should be very close to the vanilla tonemapping but everything else above middle grey value has increased gain as I tried to tone down and roll off saturation in high end resulting in increase in gain. With next pack I may find better technique.
+
+This LUT pack is designed to provide a good level of contrast right away. However, for some maps with significant fog or no global illumination, you may want to slightly lower shadows in Lumina or reduce Exposure. Alternatively, if you use the "PreservePhotoMode" mod, tinting the regular fog to a mid-greyish blue can alleviate the lack of contrast on foggy maps and in fact reduce sky cast on shady parts of mesh and metal materials like chrome on motorcycles for example for more realistic lighting.
+These LUTs are designed to work effectively in any season and at any time of day, especially when paired with maximum graphics settings and the loaded preset settings
+Adjusting behaves little different from vanilla tonamapping, because of incresed contrast and more gain in high end, saturation custom hue shifts in blues, reds, greens, skintones and film emulation so be gentle with it.
+
+Anywho fine tune to your liking but beware of reducing LUT contribution unless you like nuclear colours and white clipping.
+
+# LUT List:
+- **Dam_Filmstock_FJ_D55** (Most warm)
+- **Dam_Filmstock_FJ_D60** (Slightly warm)
+- **Dam_Filmstock_FJ_D65** (Most cool)
+- **Dam_Filmstock_KD_D55** (Most warm)
+- **Dam_Filmstock_KD_D60** (Slightly warm)
+- **Dam_Filmstock_KD_D65** (Most cool)
+
+My favourite are D60 versions and probably will be easiest to alter to your liking, especially when you want to tune the temp and tint for perfect whitebalance as probably you prefer neutral white balance for youtube or social media in general.
+
+# Special Thanks
+**Nyyoko**
 	</LongDescription>
 	<!--Thumbnail-->
-	<Thumbnail Value="Properties/Thumbnail.png" />
+	<Thumbnail Value="Properties/Thumbnail.jpg" />
 	<!--Screenshot, can be set multiple times-->
-	<Screenshot Value="" />
+	<Screenshot Value="Properties/Screenshot1.jpg" />
+	<Screenshot Value="Properties/Screenshot2.jpg" />
+	<Screenshot Value="Properties/Screenshot3.jpg" />
+	<Screenshot Value="Properties/Screenshot4.jpg" />
+	<Screenshot Value="Properties/Screenshot5.jpg" />
+	<Screenshot Value="Properties/Screenshot6.jpg" />
+	<Screenshot Value="Properties/Screenshot7.jpg" />
+	<Screenshot Value="Properties/Screenshot8.jpg" />
+	<Screenshot Value="Properties/Screenshot9.jpg" />
+	<Screenshot Value="Properties/Screenshot10.jpg" />
 	<!--Tag, can be set multiple times-->
 	<Tag Value="" />
 	<!--Link to the forum post where the mod can be discussed-->
-	<ForumLink Value="" />
+	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/filmstock-lut-pack.1743702/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0" />
+	<ModVersion Value="1.0.3" />
 	<!--Recommended version of the base game to use the mod-->
-	<GameVersion Value="1.0.*" />
+	<GameVersion Value="1.2.*" />
 	<!--Dependency for the mod, can be set multiple times-->
-	<Dependency Id="" />
+	<Dependency Id="94394" />
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
-	<ChangeLog Value="" />
-	<!--ChangeLog>
-	</ChangeLog-->
+	<ChangeLog Value="Fix Skyve Warnings" />
+	<ChangeLog>
+- Changed the GemeVersion to 1.2.* should solve Skyve warning about it.
+- Adding source code for the mod to github also to solve Skyve warnings.
+- Added Thumbnails and screenshots
+- Rewrote description brief usage especially, and added simple steps guide tutorial in first screenshot
+	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
-	<ExternalLink Type="" Url="" />
+	<ExternalLink Type="github" Url="https://github.com/DamiancioSkylines/cities2-FilmstockLUTPack" />
+	<ExternalLink Type="paypal" Url="https://www.paypal.com/donate/?hosted_button_id=8VN8P4VJDAKKA" />
 </Publish>

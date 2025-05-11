@@ -7,6 +7,8 @@
 		
 		<!--The file where mod information which is required for publishing mod on PDX mods are stored-->
 		<PublishConfigurationPath>Properties\PublishConfiguration.xml</PublishConfigurationPath>
+		<AssemblyName>FilmstockLUTPack</AssemblyName>
+		<RootNamespace>FilmstockLUTPack</RootNamespace>
 	</PropertyGroup>
 	
 	<!--Imports must be after PropertyGroup block-->
@@ -61,7 +63,33 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Folder Include="LuminaPresets\" />
 	  <Folder Include="LUTS\" />
 	</ItemGroup>
-
+	<ItemGroup>
+		<EmbeddedResource Include="LUTS\Dam_Filmstock_KD_D55.cube">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="LUTS\Dam_Filmstock_KD_D60.cube">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="LUTS\Dam_Filmstock_KD_D65.cube">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="LUTS\Dam_Filmstock_FJ_D55.cube">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="LUTS\Dam_Filmstock_FJ_D60.cube">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="LUTS\Dam_Filmstock_FJ_D65.cube">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="LuminaPresets\Filmstock.xml">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="FilmstockLUTPack.lumina">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+	</ItemGroup>
 </Project>

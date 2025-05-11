@@ -2,7 +2,7 @@
 // Copyright (c) NyokoDev. All rights reserved.
 // </copyright>
 
-namespace LUTTemplate.Initializer
+namespace FilmstockLUTPack.Initializer
 {
     using System;
     using System.Collections.Generic;
