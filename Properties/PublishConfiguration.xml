@@ -52,22 +52,22 @@ My favourite are D60 versions and probably will be easiest to alter to your liki
 	<!--Thumbnail-->
 	<Thumbnail Value="Properties/Thumbnail.jpg" />
 	<!--Screenshot, can be set multiple times-->
-	<Screenshot Value="Properties/Screenshot1.jpg" />
-	<Screenshot Value="Properties/Screenshot2.jpg" />
-	<Screenshot Value="Properties/Screenshot3.jpg" />
-	<Screenshot Value="Properties/Screenshot4.jpg" />
-	<Screenshot Value="Properties/Screenshot5.jpg" />
-	<Screenshot Value="Properties/Screenshot6.jpg" />
-	<Screenshot Value="Properties/Screenshot7.jpg" />
-	<Screenshot Value="Properties/Screenshot8.jpg" />
-	<Screenshot Value="Properties/Screenshot9.jpg" />
+	<Screenshot Value="Properties/Screenshot01.jpg" />
+	<Screenshot Value="Properties/Screenshot02.jpg" />
+	<Screenshot Value="Properties/Screenshot03.jpg" />
+	<Screenshot Value="Properties/Screenshot04.jpg" />
+	<Screenshot Value="Properties/Screenshot05.jpg" />
+	<Screenshot Value="Properties/Screenshot06.jpg" />
+	<Screenshot Value="Properties/Screenshot07.jpg" />
+	<Screenshot Value="Properties/Screenshot08.jpg" />
+	<Screenshot Value="Properties/Screenshot09.jpg" />
 	<Screenshot Value="Properties/Screenshot10.jpg" />
 	<!--Tag, can be set multiple times-->
-	<Tag Value="" />
+	<Tag Value="Code Mod" />
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/filmstock-lut-pack.1743702/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0.4" />
+	<ModVersion Value="1.0.5" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.2.*" />
 	<!--Dependency for the mod, can be set multiple times-->
@@ -75,9 +75,7 @@ My favourite are D60 versions and probably will be easiest to alter to your liki
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
 	<ChangeLog Value="Fix Skyve Warnings" />
 	<ChangeLog>
-- Added link and Thumbnail as PNG file
-- Slight description edit and 
-- Added missing screenshot
+- Attempt to reorder the screenshots...
 	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
 	<ExternalLink Type="github" Url="https://github.com/DamiancioSkylines/cities2-FilmstockLUTPack" />
