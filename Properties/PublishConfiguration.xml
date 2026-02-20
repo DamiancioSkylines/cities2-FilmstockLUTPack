@@ -10,29 +10,46 @@
 	<LongDescription>
 ## Filmstock LUT Pack for Lumina
 
+## Important Update: New Preset
+Due to changes in the default weather climate (ColorAdjustmentsProperties) mainly, the original **"Filmstock"** preset is currently **outdated**.
+- A new added preset has been created specifically for the **"Dam_Filmstock_FJ_D55"** LUT.
+- Preset Name: **"Filmstock FJ D55 A"**.
+- Installation: This file should copy automatically to your Lumina folder after a game relaunch (load order of this pack should be after lumina). If it does not, you can manually copy it to:
+%LocalAppData%Low\Colossal Order\Cities Skylines II\ModsData\Lumina\LuminaPresets.
+Preset Details:
+- Adjustments: Exposure and contrast have been reduced to fit the new game climate.
+- White Balance: Temperature and tint have been tuned; while D55 is warm by design, this preset brings it closer to neutral, it's not related to game update.
+- Compatibility: This is a great starting point for any adjustments. It also looks good with Dam_Filmstock_KD_D55, though it isn't intended for use with the other LUTs in the pack.
+- Saturation sometimes look little to close for comfort in regard to clipping, but this LUTs were always like that, one day will make better ones.
+- Looks best with SSGI yet not required
+
+The LUT files themselves remain unchanged.
+		
 Elevate your visuals with this LUT pack, designed to bring a more cinematic and less digital aesthetic to your cityscapes. By emulating the characteristics of classic Kodak and Fujifilm film stocks, this pack delivers richer colors, enhanced contrast, and a noticeable reduction in the game's inherent yellow tint. Definitely different ascetic little retro, especially at close-ups.
 # Brief Usage:
-After downloading, LUTs should show up, but if not, you need to relaunch your game once or couple times, eventually, mod copies the LUT's and preset in Lumina folder.
 1. Load your save game and open the Lumina menu and go to the first tab.
-2. Import the Filmstock preset by typing "Filmstock"
+2. Import the Filmstock preset by typing **"Filmstock FJ D55 A"**
 3. Press "IMPORT PRESET"
 4. Tick the "ENABLE LUMINA VOLUME" else nothing will apply eather preset or LUT's
 5. Navigate to the "Tonemapping" tab (sun inside a square).
 6. Set the "Tonemapping Mode" to "External"
-7. Choose a "Tonemapping Texture" from the list (e.g. "Dam_Filmstock_FJ_D65")
+7. Choose a "Tonemapping Texture" from the list **"Dam_Filmstock_FJ_D55"**
 8. Ensure LUT Contribution is set to 1; else you will have white and saturation clipping. Use adjustments in the last tab instead to fine-tune later.
 9. Click "Load LUT"
 
 # Know Issues:
-- Some custom textures for the terrain are honestly designed overexposed maybe to look better for vanilla tonemapping, but they may be very bright with this LUT's
-- Overall LUTs are created with way better technique then Candy Commercial I almost eliminated color banding, and middle grey value should be very close to the vanilla tonemapping but everything else above middle grey value has increased gain as I tried to tone down and roll off saturation in high end resulting in increase in gain. With next pack I may find better technique.
-
+- Some custom textures for the terrain are honestly designed overexposed, they may be very bright with this LUT's
+- Overall LUTs are created with way better technique then Candy Commercial I almost eliminated colour banding, and middle grey value should be very close to the vanilla tonemapping but everything else above middle grey value has increased gain as I tried to tone down and roll off saturation in high end resulting in increase in gain. With next pack I may find better technique.
+- Missing presets for rest of the LUTs in the pack use D55's as for now, or infer changes in exposure and contrast from new preset.
+		
 # Extra notes
-- This LUT pack is designed to provide a good level of contrast right away. However, for some maps with significant fog or no global illumination, you may want to slightly lower shadows in Lumina or reduce Exposure. Alternatively, if you use the "PreservePhotoMode" mod, tinting the regular fog to a mid-greyish blue can alleviate the lack of contrast on foggy maps and in fact reduce sky cast on shady parts of mesh and metal materials like chrome on motorcycles for example for more realistic lighting.
-- These LUTs are designed to work effectively in any season and at any time of day, especially when paired with maximum graphics settings and the loaded preset settings
-- Adjusting behaves little differently from vanilla tonemapping, because of increased contrast and more gain in high-end, saturation custom hue shifts in blues, reds, greens, skintones, and film emulation so be gentle with it.
-
-Anywho fine tune to your liking but beware of reducing LUT contribution unless you like nuclear colours and white clipping.
+Universal Compatibility: These LUTs are designed to work effectively in any season and at any time of day, especially when paired with maximum graphics settings and the loaded preset settings.
+Shadow Behaviour: If you have still weak shadows, it is due to overcast weather; this is a game mechanic, not a mod issue.
+Fine-Tuning: Adjusting behaves differently from vanilla tonemapping due to increased contrast, high-end gain, and custom hue shifts (blues, reds, greens, skintones). Be gentle with your adjustments.
+LUT Files: The LUT files themselves remain unchanged in this update.
+External Support: This mod will not fix game settings that have been changed due to loading outdated mods or game crashes or else. Please do not comment regarding these external issues.
+		
+Experience of colour is very personal and subjective thing so adjust away! After staring at LUT values for this long, I’m pretty sure I’m starting to see colours that don’t exist ^^
 
 # LUT List:
 - **Dam_Filmstock_FJ_D55** (Warmest)
@@ -42,10 +59,12 @@ Anywho fine tune to your liking but beware of reducing LUT contribution unless y
 - **Dam_Filmstock_KD_D60** (Slightly warm)
 - **Dam_Filmstock_KD_D65** (Coolest)
 
-My favourite are D60 versions and probably will be easiest to alter to your liking, especially when you want to tune the temp and tint for perfect white balance as probably you prefer neutral white balance for YouTube or social media in general.
-
+# Preset List:
+- **Filmstock** (Currently outdated)
+- **Filmstock FJ D55 A** (New)
+		
 ## Special Thanks
-**Nyyoko**
+**Nyoko**
 	</LongDescription>
 	<!--Thumbnail-->
 	<Thumbnail Value="Properties/Thumbnail.jpg" />
@@ -59,23 +78,20 @@ My favourite are D60 versions and probably will be easiest to alter to your liki
 	<Screenshot Value="Properties/Screenshot07.jpg" />
 	<Screenshot Value="Properties/Screenshot08.jpg" />
 	<Screenshot Value="Properties/Screenshot09.jpg" />
-	<Screenshot Value="Properties/Screenshot10.jpg" />
 	<!--Tag can be set multiple times-->
 	<Tag Value="Code Mod" />
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/filmstock-lut-pack.1743702/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0.7" />
+	<ModVersion Value="1.0.8" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.5.*" />
 	<!--Dependency for the mod can be set multiple times-->
 	<Dependency Id="94394" />
 	<!--Change log for a new version. Single line or multi line. Supports minimal markdown subset-->
-	<ChangeLog Value="Fix Skyve Warnings" />
+	<ChangeLog Value="Added Preset file" />
 	<ChangeLog>
-- Compatibility with game update 1.5.3f1
-- Recompiled to clear Skyve warning
-- Removed redundant logs unless errors
+- New Preset: "Filmstock FJ D55 A" for LUT: "Dam_Filmstock_FJ_D55"
 	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
 	<ExternalLink Type="github" Url="https://github.com/DamiancioSkylines/cities2-FilmstockLUTPack" />
