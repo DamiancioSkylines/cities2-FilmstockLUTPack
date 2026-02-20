@@ -91,5 +91,9 @@
 		<EmbeddedResource Include="FilmstockLUTPack.lumina">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</EmbeddedResource>
+		<None Remove="LuminaPresets\Filmstock FJ D55 A.xml" />
+		<EmbeddedResource Include="LuminaPresets\Filmstock FJ D55 A.xml">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
 	</ItemGroup>
 </Project>
