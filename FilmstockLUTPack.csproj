@@ -63,7 +63,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="LuminaPresets\" />
 	  <Folder Include="LUTS\" />
 	</ItemGroup>
 	<ItemGroup>
@@ -91,9 +90,11 @@
 		<EmbeddedResource Include="FilmstockLUTPack.lumina">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</EmbeddedResource>
-		<None Remove="LuminaPresets\Filmstock FJ D55 A.xml" />
-		<EmbeddedResource Include="LuminaPresets\Filmstock FJ D55 A.xml">
-		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</EmbeddedResource>
+	</ItemGroup>
+	<ItemGroup>
+	  <None Remove="LuminaPresets\Jukka Filmstock FJ D55.xml" />
+	  <EmbeddedResource Include="LuminaPresets\Jukka Filmstock FJ D55.xml">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </EmbeddedResource>
 	</ItemGroup>
 </Project>
