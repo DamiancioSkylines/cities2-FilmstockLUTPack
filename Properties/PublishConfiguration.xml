@@ -32,19 +32,10 @@ By emulating the characteristics of classic Kodak and Fujifilm film stocks, this
 - **LUT** files remain unchanged.
 - **Legacy Content:** The original "Filmstock" and "Filmstock FJ D55 A" presets are now considered legacy. For the best experience, use new targeted presets.
 - **Latitude Longitude:** Preset sets it to the equator but if you were not using lumina to set it up, but Time &amp; Weather anarchy there is no effect afaik.
-- **SSGI:** will not force it with preset
+- **SSGI:** presets will not force it.
 - **SSAO:** presets will turn it on, and only options to control it further are inside Lumina.
+- **Contact Shadows:** presets will turn them off, I do not recommend them, only way to set them correctly without artefacts renders them redundant with SSAO.
 - **Road Textures:** Presets will turn them on, and change the settings.
-- **Subjectivity:** Color is personal! The Jukka preset is a perfect "Gold Standard" starting point, but feel free to adjust to your own taste.
-I would advise not touch the saturation as this will change neutral balance of the preset, yet if you want cooler or warmer look adjust temperature, or else what you wish.
-		
-SSGI recommended settings:
-- Fullscreen Effect **On**
-- Ray Steps **32**
-- Denoiser radius **0.5-0.6**
-- Half resolution denoiser **Off**
-- Use second denoiser pass **On**
-- Depth Tolerance **"0.1"** (one tick from minimum)
 		
 ### LUT List:
 - **Dam_Filmstock_FJ_D55**
