@@ -8,17 +8,12 @@
 	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
 	<!--LongDescription Value="LUT PACK FOR LUMINA" /-->
 	<LongDescription>
-### Important Update: New Preset
+### Important Update: New Presets
 
-This update introduces a new master preset designed to achieve a **perceptually neutral** baseline.
-
-- New Preset: **Jukka Filmstock FJ D55**
-- Target LUT: **Dam_Filmstock_FJ_D55**
-- Goal: To neutralize the engine's and LUT built-in biases and provide a clean, professional start for your city's visuals.
-- Installation: The preset file will automatically sync to your Lumina folder upon game relaunch.
-- Adjustments: Pretty much everything has been tuned in the preset file.
-
-The LUT files themselves remain unchanged.
+This update introduces a new presets designed to achieve a **perceptually neutral** baseline for targeted LUTs in the pack.
+Presets have descriptive suffixes so use them with same suffix LUT files. Legacy Filmstock preset has been updated but its only average between D60 presets.
+All presets have closely matching tonal range, and they have all been tuned to be as close as possible to be perceptually neutral in midtones, yet still provide different white balance indicated by suffix.
+New presets will automatically sync to your Lumina folder upon game relaunch.
 
 By emulating the characteristics of classic Kodak and Fujifilm film stocks, this pack delivers richer colours, enhanced contrast, saturation roll off.
 
@@ -34,48 +29,58 @@ By emulating the characteristics of classic Kodak and Fujifilm film stocks, this
 9. Click **Load LUT**
 
 ### Extra Notes:
-
-- **Legacy Content:** The original "Filmstock" and "Filmstock FJ D55 A" presets are now considered legacy/outdated. For the best experience, use the "**Jukka_Filmstock_FJ_D55**" preset.
-- **Lighting:** Looks best with **SSGI enabled**, yet not required.
-- **Texture Warning:** Some custom terrain textures are authored as overexposed they may appear very bright.
+- **LUT** files remain unchanged.
+- **Legacy Content:** The original "Filmstock" and "Filmstock FJ D55 A" presets are now considered legacy. For the best experience, use new targeted presets.
+- **Latitude Longitude:** Preset sets it to the equator but if you were not using lumina to set it up, but Time &amp; Weather anarchy there is no effect afaik.
+- **SSGI:** will not force it with preset
+- **SSAO:** presets will turn it on, and only options to control it further are inside Lumina.
+- **Road Textures:** Presets will turn them on, and change the settings.
 - **Subjectivity:** Color is personal! The Jukka preset is a perfect "Gold Standard" starting point, but feel free to adjust to your own taste.
-I would not touch the saturation as this will change neutral balance of the preset, yet if you want cooler or warmer look adjust temperature, or else what you wish.
-- **Latitude Longitude:** Preset sets it to the equator but if you were not using lumina to set it up but Time &amp; Weather anarchy there is no effect afaik.
-- **SSGI:** "Jukka" preset will turn it on, but it does not manage its settings, please refer to this guide if you need to make it look better, or turn it off yourself. https://forum.paradoxplaza.com/forum/threads/ssgi-screen-space-global-illumination-settings-explained-quality-and-optimization-with-screenshots.1884624/
-- **SSAO:** "Jukka" Preset will turn it on, and only options to control it further are inside Lumina.
-- **Road Textures:** Presets will turn it off, and change the settings.
+I would advise not touch the saturation as this will change neutral balance of the preset, yet if you want cooler or warmer look adjust temperature, or else what you wish.
+		
+SSGI recommended settings:
+- Fullscreen Effect **On**
+- Ray Steps **32**
+- Denoiser radius **0.5-0.6**
+- Half resolution denoiser **Off**
+- Use second denoiser pass **On**
+- Depth Tolerance **"0.1"** (one tick from minimum)
 		
 ### LUT List:
-
-- **Dam_Filmstock_FJ_D55** (Warmest)
-- **Dam_Filmstock_FJ_D60** (Slightly warm)
-- **Dam_Filmstock_FJ_D65** (Coolest)
-- **Dam_Filmstock_KD_D55** (Warmest)
-- **Dam_Filmstock_KD_D60** (Slightly warm)
-- **Dam_Filmstock_KD_D65** (Coolest)
+- **Dam_Filmstock_FJ_D55**
+- **Dam_Filmstock_FJ_D60**
+- **Dam_Filmstock_FJ_D65**
+- **Dam_Filmstock_KD_D55**
+- **Dam_Filmstock_KD_D60**
+- **Dam_Filmstock_KD_D65**
 
 ### Preset List:
-
-- **Filmstock** (Legacy)
+- **Filmstock** (Updated: Avg. between Dam Filmstock FJ D60 and Dam Filmstock KD D60, use for preview only)
 - **Filmstock FJ D55 A** (Removed)
-- **Filmstock FJ D55 Jukka**
+- **Jukka Filmstock FJ D55** (Recommended)
+- **Dam Filmstock FJ D55** (Recommended)
+- **Dam Filmstock FJ D60** (Recommended)
+- **Dam Filmstock FJ D65** (Recommended)
+- **Dam Filmstock KD D55** (Recommended)
+- **Dam Filmstock KD D60** (Recommended)
+- **Dam Filmstock KD D65** (Recommended)
 
 ### Special Thanks
 **Nyoko**
 **Jukka (Jen1)**
 	</LongDescription>
 	<!--Thumbnail-->
-	<Thumbnail Value="Properties/Thumbnail.jpg" />
+	<Thumbnail Value="Properties/Thumbnail.png" />
 	<!--Screenshot can be set multiple times-->
-	<Screenshot Value="Properties/Screenshot01.jpg" />
-	<Screenshot Value="Properties/Screenshot02.jpg" />
-	<Screenshot Value="Properties/Screenshot03.jpg" />
-	<Screenshot Value="Properties/Screenshot04.jpg" />
-	<Screenshot Value="Properties/Screenshot05.jpg" />
-	<Screenshot Value="Properties/Screenshot06.jpg" />
-	<Screenshot Value="Properties/Screenshot07.jpg" />
-	<Screenshot Value="Properties/Screenshot08.jpg" />
-	<Screenshot Value="Properties/Screenshot09.jpg" />
+	<Screenshot Value="Properties/Screenshot01.png" />
+	<Screenshot Value="Properties/Screenshot02.png" />
+	<Screenshot Value="Properties/Screenshot03.png" />
+	<Screenshot Value="Properties/Screenshot04.png" />
+	<Screenshot Value="Properties/Screenshot05.png" />
+	<Screenshot Value="Properties/Screenshot06.png" />
+	<Screenshot Value="Properties/Screenshot07.png" />
+	<Screenshot Value="Properties/Screenshot08.png" />
+	<Screenshot Value="Properties/Screenshot09.png" />
 	<!--Tag can be set multiple times-->
 	<Tag Value="Code Mod" />
 	<!--Link to the forum post where the mod can be discussed-->
@@ -87,9 +92,17 @@ I would not touch the saturation as this will change neutral balance of the pres
 	<!--Dependency for the mod can be set multiple times-->
 	<Dependency Id="94394" />
 	<!--Change log for a new version. Single line or multi line. Supports minimal markdown subset-->
-	<ChangeLog Value="Added Preset file" />
+	<ChangeLog Value="New Presets" />
 	<ChangeLog>
-- New Preset: "Jukka Filmstock FJ D55" for LUT: "Dam_Filmstock_FJ_D55"
+- New Presets!
+- Jukka Filmstock FJ D55
+- Dam Filmstock FJ D55
+- Dam Filmstock FJ D60
+- Dam Filmstock FJ D65
+- Dam Filmstock KD D55
+- Dam Filmstock KD D60
+- Dam Filmstock KD D65
+- Updated Legacy Filmstock Preset too!
 	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
 	<ExternalLink Type="github" Url="https://github.com/DamiancioSkylines/cities2-FilmstockLUTPack" />

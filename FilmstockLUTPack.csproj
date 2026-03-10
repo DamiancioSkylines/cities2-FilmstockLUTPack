@@ -65,6 +65,7 @@
 	<ItemGroup>
 	  <Folder Include="LUTS\" />
 	</ItemGroup>
+	
 	<ItemGroup>
 		<EmbeddedResource Include="LUTS\Dam_Filmstock_KD_D55.cube">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -90,11 +91,26 @@
 		<EmbeddedResource Include="FilmstockLUTPack.lumina">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</EmbeddedResource>
-	</ItemGroup>
-	<ItemGroup>
-	  <None Remove="LuminaPresets\Jukka Filmstock FJ D55.xml" />
-	  <EmbeddedResource Include="LuminaPresets\Jukka Filmstock FJ D55.xml">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </EmbeddedResource>
+		<EmbeddedResource Include="LuminaPresets\Jukka Filmstock FJ D55.xml">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="LuminaPresets\Dam Filmstock FJ D55.xml">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="LuminaPresets\Dam Filmstock FJ D60.xml">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="LuminaPresets\Dam Filmstock FJ D65.xml">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="LuminaPresets\Dam Filmstock KD D55.xml">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="LuminaPresets\Dam Filmstock KD D60.xml">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="LuminaPresets\Dam Filmstock KD D65.xml">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
 	</ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GlobalVariables xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <PostExposure>-0.494</PostExposure>
+  <PostExposure>-0.575</PostExposure>
   <PostExposureActive>true</PostExposureActive>
   <Contrast>0</Contrast>
   <ContrastActive>true</ContrastActive>
@@ -10,9 +10,9 @@
   <SaturationActive>true</SaturationActive>
   <Longitude>0</Longitude>
   <Latitude>0</Latitude>
-  <Temperature>-7.65</Temperature>
+  <Temperature>-20.3597</Temperature>
   <TemperatureActive>true</TemperatureActive>
-  <Tint>5.37</Tint>
+  <Tint>12.5</Tint>
   <TintActive>true</TintActive>
   <Shadows>0.3</Shadows>
   <ShadowsActive>true</ShadowsActive>
@@ -22,7 +22,7 @@
   <HighlightsActive>true</HighlightsActive>
   <LUTContribution>1</LUTContribution>
   <LUTContributionOverrideState>true</LUTContributionOverrideState>
-  <LUTName>Dam_Filmstock_FJ_D60</LUTName>
+  <LUTName>Dam_Filmstock_FJ_D55</LUTName>
   <TimeOfDayLocked>false</TimeOfDayLocked>
   <TonemappingMode>External</TonemappingMode>
   <SceneFlowCheckerEnabled>false</SceneFlowCheckerEnabled>
@@ -73,14 +73,14 @@
   <IsContactShadows>false</IsContactShadows>
   <IsScreenSpaceAmbientOcclusion>true</IsScreenSpaceAmbientOcclusion>
   <AmbientOcclusionMaxRadiusInPixels>0</AmbientOcclusionMaxRadiusInPixels>
-  <AmbientOcclusionRadius>1.64955556</AmbientOcclusionRadius>
-  <AmbientOcclusionStepCount>1</AmbientOcclusionStepCount>
-  <AmbientOcclusionTemporalAccumulation>false</AmbientOcclusionTemporalAccumulation>
-  <AmbientOcclusionBilateralAggressiveness>0</AmbientOcclusionBilateralAggressiveness>
-  <AmbientOcclusionGhostingReduction>0.5</AmbientOcclusionGhostingReduction>
+  <AmbientOcclusionRadius>2.2</AmbientOcclusionRadius>
+  <AmbientOcclusionStepCount>8</AmbientOcclusionStepCount>
+  <AmbientOcclusionTemporalAccumulation>true</AmbientOcclusionTemporalAccumulation>
+  <AmbientOcclusionBilateralAggressiveness>0.05</AmbientOcclusionBilateralAggressiveness>
+  <AmbientOcclusionGhostingReduction>1</AmbientOcclusionGhostingReduction>
   <AmbientOcclusionFullResolution>true</AmbientOcclusionFullResolution>
-  <AmbientOcclusionDirectLightingStrength>0</AmbientOcclusionDirectLightingStrength>
-  <AmbientOcclusionIntensity>1.36957622</AmbientOcclusionIntensity>
+  <AmbientOcclusionDirectLightingStrength>0.075</AmbientOcclusionDirectLightingStrength>
+  <AmbientOcclusionIntensity>1.35</AmbientOcclusionIntensity>
   <AmbientOcclusionBlurSharpness>0.1</AmbientOcclusionBlurSharpness>
   <AmbientOcclusionBilateralUpsample>true</AmbientOcclusionBilateralUpsample>
   <AmbientOcclusionSpecularOcclusion>1</AmbientOcclusionSpecularOcclusion>

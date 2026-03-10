@@ -53,7 +53,7 @@
   <RoadTextureSmoothness>0.3</RoadTextureSmoothness>
   <TextureBrightness>1.5</TextureBrightness>
   <TextureOpacity>0.75</TextureOpacity>
-  <UseRoadTextures>false</UseRoadTextures>
+  <UseRoadTextures>true</UseRoadTextures>
   <PrimaryRoadColor>
     <r>1</r>
     <g>1</g>
@@ -69,8 +69,8 @@
   <EnableDebugLogs>false</EnableDebugLogs>
   <SafeMode>false</SafeMode>
   <PerformanceMode>false</PerformanceMode>
-  <IsSSGIInterventionEnabled>true</IsSSGIInterventionEnabled>
-  <IsContactShadows>true</IsContactShadows>
+  <IsSSGIInterventionEnabled>false</IsSSGIInterventionEnabled>
+  <IsContactShadows>false</IsContactShadows>
   <IsScreenSpaceAmbientOcclusion>true</IsScreenSpaceAmbientOcclusion>
   <AmbientOcclusionMaxRadiusInPixels>0</AmbientOcclusionMaxRadiusInPixels>
   <AmbientOcclusionRadius>1.367348</AmbientOcclusionRadius>
@@ -91,13 +91,13 @@
   </AmbientOcclusionLayerMask>
   <AmbientOcclusionRayTracing>false</AmbientOcclusionRayTracing>
   <AmbientOcclusionRayLength>0.01</AmbientOcclusionRayLength>
-  <AmbientOcclusionSampleCount>1</AmbientOcclusionSampleCount>
+  <AmbientOcclusionSampleCount>0</AmbientOcclusionSampleCount>
   <AmbientOcclusionDenoise>false</AmbientOcclusionDenoise>
   <AmbientOcclusionDenoiserRadius>0.1</AmbientOcclusionDenoiserRadius>
   <ContactShadowsLength>1</ContactShadowsLength>
-  <ContactShadowsMaxDistance>50</ContactShadowsMaxDistance>
-  <ContactShadowsMinDistance>0.5</ContactShadowsMinDistance>
-  <ContactShadowsThicknessScale>1</ContactShadowsThicknessScale>
+  <ContactShadowsMaxDistance>60</ContactShadowsMaxDistance>
+  <ContactShadowsMinDistance>0.1</ContactShadowsMinDistance>
+  <ContactShadowsThicknessScale>0.05</ContactShadowsThicknessScale>
   <ContactShadowsDistanceScaleFactor>1</ContactShadowsDistanceScaleFactor>
   <ContactShadowsOpacity>1</ContactShadowsOpacity>
   <ContactShadowsRayBias>0.01</ContactShadowsRayBias>

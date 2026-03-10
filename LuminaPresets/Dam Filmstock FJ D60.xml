@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GlobalVariables xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <PostExposure>-0.494</PostExposure>
+  <PostExposure>-0.5502066</PostExposure>
   <PostExposureActive>true</PostExposureActive>
   <Contrast>0</Contrast>
   <ContrastActive>true</ContrastActive>
@@ -10,9 +10,9 @@
   <SaturationActive>true</SaturationActive>
   <Longitude>0</Longitude>
   <Latitude>0</Latitude>
-  <Temperature>-7.65</Temperature>
+  <Temperature>-8.8916</Temperature>
   <TemperatureActive>true</TemperatureActive>
-  <Tint>5.37</Tint>
+  <Tint>4.7512</Tint>
   <TintActive>true</TintActive>
   <Shadows>0.3</Shadows>
   <ShadowsActive>true</ShadowsActive>

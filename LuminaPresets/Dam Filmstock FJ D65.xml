@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GlobalVariables xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <PostExposure>-0.494</PostExposure>
+  <PostExposure>-0.5254132</PostExposure>
   <PostExposureActive>true</PostExposureActive>
   <Contrast>0</Contrast>
   <ContrastActive>true</ContrastActive>
@@ -10,9 +10,9 @@
   <SaturationActive>true</SaturationActive>
   <Longitude>0</Longitude>
   <Latitude>0</Latitude>
-  <Temperature>-7.65</Temperature>
+  <Temperature>-0.5231</Temperature>
   <TemperatureActive>true</TemperatureActive>
-  <Tint>5.37</Tint>
+  <Tint>-0.5179</Tint>
   <TintActive>true</TintActive>
   <Shadows>0.3</Shadows>
   <ShadowsActive>true</ShadowsActive>
@@ -22,7 +22,7 @@
   <HighlightsActive>true</HighlightsActive>
   <LUTContribution>1</LUTContribution>
   <LUTContributionOverrideState>true</LUTContributionOverrideState>
-  <LUTName>Dam_Filmstock_FJ_D60</LUTName>
+  <LUTName>Dam_Filmstock_FJ_D65</LUTName>
   <TimeOfDayLocked>false</TimeOfDayLocked>
   <TonemappingMode>External</TonemappingMode>
   <SceneFlowCheckerEnabled>false</SceneFlowCheckerEnabled>
