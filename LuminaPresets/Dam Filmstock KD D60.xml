@@ -50,8 +50,8 @@
   <LatLongEnabled>false</LatLongEnabled>
   <MetroEnabled>false</MetroEnabled>
   <ViewTimeOfDaySlider>false</ViewTimeOfDaySlider>
-  <RoadTextureSmoothness>0.3</RoadTextureSmoothness>
-  <TextureBrightness>1.5</TextureBrightness>
+  <RoadTextureSmoothness>1.5</RoadTextureSmoothness>
+  <TextureBrightness>0</TextureBrightness>
   <TextureOpacity>0.75</TextureOpacity>
   <UseRoadTextures>true</UseRoadTextures>
   <PrimaryRoadColor>
@@ -94,6 +94,7 @@
   <AmbientOcclusionSampleCount>0</AmbientOcclusionSampleCount>
   <AmbientOcclusionDenoise>false</AmbientOcclusionDenoise>
   <AmbientOcclusionDenoiserRadius>0.1</AmbientOcclusionDenoiserRadius>
+  <UpdateNotification>false</UpdateNotification>
   <ContactShadowsLength>1</ContactShadowsLength>
   <ContactShadowsMaxDistance>60</ContactShadowsMaxDistance>
   <ContactShadowsMinDistance>0.1</ContactShadowsMinDistance>

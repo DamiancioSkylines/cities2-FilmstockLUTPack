@@ -35,7 +35,7 @@ By emulating the characteristics of classic Kodak and Fujifilm film stocks, this
 - **SSGI:** presets will not force it.
 - **SSAO:** presets will turn it on, and only options to control it further are inside Lumina.
 - **Contact Shadows:** presets will turn them off, I do not recommend them, only way to set them correctly without artefacts renders them redundant with SSAO.
-- **Road Textures:** Presets will turn them on, and change the settings.
+- **Road Textures:** Presets will turn them on, and change the settings, work well with default Lumina texture replacement.
 		
 ### LUT List:
 - **Dam_Filmstock_FJ_D55**
@@ -77,7 +77,7 @@ By emulating the characteristics of classic Kodak and Fujifilm film stocks, this
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/filmstock-lut-pack.1743702/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0.9" />
+	<ModVersion Value="1.1.0" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.5.*" />
 	<!--Dependency for the mod can be set multiple times-->
@@ -85,15 +85,7 @@ By emulating the characteristics of classic Kodak and Fujifilm film stocks, this
 	<!--Change log for a new version. Single line or multi line. Supports minimal markdown subset-->
 	<ChangeLog Value="New Presets" />
 	<ChangeLog>
-- New Presets!
-- Jukka Filmstock FJ D55
-- Dam Filmstock FJ D55
-- Dam Filmstock FJ D60
-- Dam Filmstock FJ D65
-- Dam Filmstock KD D55
-- Dam Filmstock KD D60
-- Dam Filmstock KD D65
-- Updated Legacy Filmstock Preset too!
+- Updated road wear default settings to work well with default Lumina texture replacement
 	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
 	<ExternalLink Type="github" Url="https://github.com/DamiancioSkylines/cities2-FilmstockLUTPack" />
