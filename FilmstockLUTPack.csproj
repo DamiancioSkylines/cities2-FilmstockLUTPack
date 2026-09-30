@@ -7,8 +7,8 @@
 		
 		<!--The file where mod information which is required for publishing mod on PDX mods are stored-->
 		<PublishConfigurationPath>Properties\PublishConfiguration.xml</PublishConfigurationPath>
-		<AssemblyName>FilmstockLUTPack</AssemblyName>
-		<RootNamespace>FilmstockLUTPack</RootNamespace>
+		<AssemblyName>Filmstock LUT Pack</AssemblyName>
+		<RootNamespace>Filmstock LUT Pack</RootNamespace>
 	</PropertyGroup>
 	
 	<!--Imports must be after PropertyGroup block-->
@@ -63,54 +63,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="LUTS\" />
-	</ItemGroup>
-	
-	<ItemGroup>
-		<EmbeddedResource Include="LUTS\Dam_Filmstock_KD_D55.cube">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</EmbeddedResource>
-		<EmbeddedResource Include="LUTS\Dam_Filmstock_KD_D60.cube">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</EmbeddedResource>
-		<EmbeddedResource Include="LUTS\Dam_Filmstock_KD_D65.cube">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</EmbeddedResource>
-		<EmbeddedResource Include="LUTS\Dam_Filmstock_FJ_D55.cube">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</EmbeddedResource>
-		<EmbeddedResource Include="LUTS\Dam_Filmstock_FJ_D60.cube">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</EmbeddedResource>
-		<EmbeddedResource Include="LUTS\Dam_Filmstock_FJ_D65.cube">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</EmbeddedResource>
-		<EmbeddedResource Include="LuminaPresets\Filmstock.xml">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</EmbeddedResource>
-		<EmbeddedResource Include="FilmstockLUTPack.lumina">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</EmbeddedResource>
-		<EmbeddedResource Include="LuminaPresets\Jukka Filmstock FJ D55.xml">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</EmbeddedResource>
-		<EmbeddedResource Include="LuminaPresets\Dam Filmstock FJ D55.xml">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</EmbeddedResource>
-		<EmbeddedResource Include="LuminaPresets\Dam Filmstock FJ D60.xml">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</EmbeddedResource>
-		<EmbeddedResource Include="LuminaPresets\Dam Filmstock FJ D65.xml">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</EmbeddedResource>
-		<EmbeddedResource Include="LuminaPresets\Dam Filmstock KD D55.xml">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</EmbeddedResource>
-		<EmbeddedResource Include="LuminaPresets\Dam Filmstock KD D60.xml">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</EmbeddedResource>
-		<EmbeddedResource Include="LuminaPresets\Dam Filmstock KD D65.xml">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</EmbeddedResource>
+		<!-- Embed LUTS and Preset and Lumina -->
+		<EmbeddedResource Include="LUTS\**\*.cube" />
+		<EmbeddedResource Include="LuminaPresets\**\*.xml" />
 	</ItemGroup>
 </Project>

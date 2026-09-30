@@ -18,14 +18,13 @@ New presets will automatically sync to your Lumina folder upon game relaunch.
 By emulating the characteristics of classic Kodak and Fujifilm film stocks, this pack delivers richer colours, enhanced contrast, saturation roll off.
 
 ### Quick Start &amp; Usage:
-1. Load your save game and open the Lumina menu and go to the first tab.
-2. Import the Filmstock preset by typing **Dam Filmstock FJ D55**
-3. Press **IMPORT PRESET**
-4. Tick **ENABLE LUMINA VOLUME** else nothing will apply either preset or LUT's
-5. Navigate to the "Tonemapping" tab (sun inside a square).
-6. Set the **Tonemapping Mode** to **External**
-7. Choose **Tonemapping Texture** from the list **Dam_Filmstock_FJ_D55**
-8. Ensure LUT Contribution is set to **1** else you will have white and saturation clipping. Use adjustments in the last tab instead to fine-tune later.
+1. Load your save game and open the Lumina menu and go to the *first tab*.
+2. Tick **ENABLE LUMINA VOLUME** else nothing will apply either preset or LUT.
+3. Scroll down and click **Import preset > Import File > type **Dam Filmstock FJ D55** > Click Import > Back > Close**
+4. Navigate to the "Tonemapping" tab (sun inside a square)
+5. Set the **Tonemapping Mode** to **External**
+6. Choose **LUT Texture** from the list e.g. **Dam_Filmstock_FJ_D55**
+7. Ensure LUT Contribution is set to **1** else it will be clipping. Use adjustments instead to fine-tune later.
 9. Click **Load LUT**
 
 ### Extra Notes:
@@ -36,7 +35,7 @@ By emulating the characteristics of classic Kodak and Fujifilm film stocks, this
 - **SSAO:** presets will turn it on, and only options to control it further are inside Lumina.
 - **Contact Shadows:** presets will turn them off, I do not recommend them, only way to set them correctly without artefacts renders them redundant with SSAO.
 - **Road Textures:** Presets will turn them on, and change the settings, work well with default Lumina texture replacement.
-		
+
 ### LUT List:
 - **Dam_Filmstock_FJ_D55**
 - **Dam_Filmstock_FJ_D60**
@@ -63,7 +62,7 @@ By emulating the characteristics of classic Kodak and Fujifilm film stocks, this
 	<!--Thumbnail-->
 	<Thumbnail Value="Properties/Thumbnail.png" />
 	<!--Screenshot can be set multiple times-->
-	<Screenshot Value="Properties/Screenshot01.png" />
+	<!--Screenshot Value="Properties/Screenshot01.jpg"-->
 	<Screenshot Value="Properties/Screenshot02.png" />
 	<Screenshot Value="Properties/Screenshot03.png" />
 	<Screenshot Value="Properties/Screenshot04.png" />
@@ -77,15 +76,15 @@ By emulating the characteristics of classic Kodak and Fujifilm film stocks, this
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/filmstock-lut-pack.1743702/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.1.0" />
+	<ModVersion Value="1.1.1" />
 	<!--Recommended version of the base game to use the mod-->
-	<GameVersion Value="1.5.*" />
+	<GameVersion Value="1.6.*" />
 	<!--Dependency for the mod can be set multiple times-->
 	<Dependency Id="94394" />
 	<!--Change log for a new version. Single line or multi line. Supports minimal markdown subset-->
-	<ChangeLog Value="New Presets" />
+	<ChangeLog Value="Optimization" />
 	<ChangeLog>
-- Updated road wear default settings to work well with default Lumina texture replacement
+- Optimization
 	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
 	<ExternalLink Type="github" Url="https://github.com/DamiancioSkylines/cities2-FilmstockLUTPack" />
