@@ -8,14 +8,11 @@
 	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
 	<!--LongDescription Value="LUT PACK FOR LUMINA" /-->
 	<LongDescription>
-### Important Update: New Presets
-
-This update introduces a new presets designed to achieve a **perceptually neutral** baseline for targeted LUTs in the pack.
+By emulating the characteristics of classic Kodak and Fujifilm film stocks, this pack delivers richer colours, enhanced contrast, saturation roll off.
+		
+Presets are designed to achieve a **perceptually neutral** baseline for targeted LUTs in the pack at noon at the equator.
 Presets have descriptive suffixes so use them with same suffix LUT files. Legacy Filmstock preset has been updated but its only average between D60 presets.
 All presets have closely matching tonal range, and they have all been tuned to be as close as possible to be perceptually neutral in midtones, yet still provide different white balance indicated by suffix.
-New presets will automatically sync to your Lumina folder upon game relaunch.
-
-By emulating the characteristics of classic Kodak and Fujifilm film stocks, this pack delivers richer colours, enhanced contrast, saturation roll off.
 
 ### Quick Start &amp; Usage:
 1. Load your save game and open the Lumina menu and go to the *first tab*.
@@ -30,7 +27,7 @@ By emulating the characteristics of classic Kodak and Fujifilm film stocks, this
 ### Extra Notes:
 - **LUT** files remain unchanged.
 - **Legacy Content:** The original "Filmstock" and "Filmstock FJ D55 A" presets are now considered legacy. For the best experience, use new targeted presets.
-- **Latitude Longitude:** Preset sets it to the equator but if you were not using lumina to set it up, but Time &amp; Weather anarchy there is no effect afaik.
+- **Latitude Longitude:** Preset sets it to the equator but if you were not using lumina to set it up, but Time &amp; Weather anarchy there is no effect afaik. Although the presets were made to have most balance at noon and at the equator, therefore feel free to ajust it for your time of day and latitude. 
 - **SSGI:** presets will not force it.
 - **SSAO:** presets will turn it on, and only options to control it further are inside Lumina.
 - **Contact Shadows:** presets will turn them off, I do not recommend them, only way to set them correctly without artefacts renders them redundant with SSAO.
@@ -45,8 +42,7 @@ By emulating the characteristics of classic Kodak and Fujifilm film stocks, this
 - **Dam_Filmstock_KD_D65**
 
 ### Preset List:
-- **Filmstock** (Updated: Avg. between Dam Filmstock FJ D60 and Dam Filmstock KD D60, use for preview only)
-- **Filmstock FJ D55 A** (Removed)
+- **Filmstock** (Avg. between Dam Filmstock FJ D60 and Dam Filmstock KD D60, use for preview only)
 - **Jukka Filmstock FJ D55** (Recommended)
 - **Dam Filmstock FJ D55** (Recommended)
 - **Dam Filmstock FJ D60** (Recommended)
