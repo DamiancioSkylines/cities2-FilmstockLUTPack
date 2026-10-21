@@ -27,10 +27,9 @@ All presets have closely matching tonal range, and they have all been tuned to b
 ### Extra Notes:
 - **LUT** files remain unchanged.
 - **Legacy Content:** The original "Filmstock" and "Filmstock FJ D55 A" presets are now considered legacy. For the best experience, use new targeted presets.
-- **Latitude Longitude:** Preset sets it to the equator but if you were not using lumina to set it up, but Time &amp; Weather anarchy there is no effect afaik. Although the presets were made to have most balance at noon and at the equator, therefore feel free to ajust it for your time of day and latitude. 
+- **Latitude Longitude:** Preset sets it to the equator but if you were not using lumina to set it up, but Time &amp; Weather anarchy there is no effect afaik. Although the presets were made to have most balance at noon and at the equator, therefore feel free to ajust temp and tint for your time of day and latitude. 
 - **SSGI:** presets will not force it.
 - **SSAO:** presets will turn it on, and only options to control it further are inside Lumina.
-- **Contact Shadows:** presets will turn them off, I do not recommend them, only way to set them correctly without artefacts renders them redundant with SSAO.
 - **Road Textures:** Presets will turn them on, and change the settings, work well with default Lumina texture replacement.
 
 ### LUT List:
@@ -72,17 +71,18 @@ All presets have closely matching tonal range, and they have all been tuned to b
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/filmstock-lut-pack.1743702/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.1.1" />
+	<ModVersion Value="1.1.2" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.6.*" />
 	<!--Dependency for the mod can be set multiple times-->
 	<Dependency Id="94394" />
 	<!--Change log for a new version. Single line or multi line. Supports minimal markdown subset-->
-	<ChangeLog Value="Optimization" />
+	<ChangeLog Value="" />
 	<ChangeLog>
-- Optimization
+- Cleared redundant tags from presets
+- Removed forced sun intensity that could cause severe overexposure
 	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
 	<ExternalLink Type="github" Url="https://github.com/DamiancioSkylines/cities2-FilmstockLUTPack" />
-	<ExternalLink Type="paypal" Url="https://www.paypal.com/donate/?hosted_button_id=8VN8P4VJDAKKA" />
+	<ExternalLink Type="kofi" Url="https://ko-fi.com/damiancioskylines" />
 </Publish>
